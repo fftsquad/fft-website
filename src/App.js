@@ -4,11 +4,13 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Mission from "./components/Mission";
 import Blog from "./components/Blog";
+import Toggle from "./components/Toggle";
 import "./App.css";
 
-function App() {
+function App(props) {
   return (
     <div>
+      <Toggle />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
