@@ -1,9 +1,9 @@
 import React from 'react';
-import Nav from "./Nav";
+import Nav from "./NavBar";
 import Footer from "./Footer";
 import { Breadcrumb } from "react-bootstrap";
 
-const Mission = () => {
+const ContactUs = () => {
     return (
       <div>
         <Nav />
@@ -21,4 +21,4 @@ const Mission = () => {
       </div>
     );
 }
-export default Mission;
+export default ContactUs;
