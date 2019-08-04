@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 
+
 import HPCarousel from "./homePage Components/HPCarousel";
 import HPCards from "./homePage Components/HPCards";
 import HPProfiles from "./homePage Components/HPProfiles";

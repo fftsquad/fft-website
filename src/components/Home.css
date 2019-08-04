@@ -1,11 +1,24 @@
+
 .container {
     /* background-color:  rgb(36, 35, 35);
-    color: white; */
+    color: white;  */
 }
 
 .hp-Carousel {
     margin-bottom: 7%;
     margin-top: 4%;
+}
+
+.d-block w-100 {
+    max-width: 20%;
+}
+
+.size {
+     max-width: auto; 
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ----------Card Section */
@@ -26,6 +39,6 @@
     border-radius: 50%;
 }
 
-.rounded-circle{
+.rounded-circle {
     border-radius: 40px;
 }

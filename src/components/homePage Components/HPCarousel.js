@@ -10,10 +10,10 @@ export default function HPCarousel() {
     <div>
       Carousel
       <Carousel>
-        <Carousel.Item>
+        <Carousel.Item className="size">
           <img
             className="d-block w-100"
-            src="src/components/images/fftATL.jpeg"
+            src="https://ton.twitter.com/1.1/ton/data/dm/1158085998380666884/1158085995285233664/ApJteDbH.jpg:medium"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -24,8 +24,8 @@ export default function HPCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
-            alt="Third slide"
+            src="https://ton.twitter.com/1.1/ton/data/dm/1158092725725458436/1158092711129305088/WjiM-eBw.jpg:medium"
+            alt="2 slide"
           />
 
           <Carousel.Caption>
@@ -36,7 +36,7 @@ export default function HPCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src=""
             alt="Third slide"
           />
 
