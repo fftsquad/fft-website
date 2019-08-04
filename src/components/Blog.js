@@ -6,7 +6,7 @@ import { Breadcrumb } from "react-bootstrap";
 const Blog = () => {
   return (
     <div>
-      {/* <Nav /> */}
+      
       <div className="blog">FFT Blog Page</div>
       breadcrumb on every page except home
       <Breadcrumb>
@@ -16,8 +16,7 @@ const Blog = () => {
         </Breadcrumb.Item>
         <Breadcrumb.Item active>Data</Breadcrumb.Item>
       </Breadcrumb>
-      {/* <Footer />
-      <Footer /> */}
+      
     </div>
   );
 };
