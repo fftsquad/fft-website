@@ -14,9 +14,9 @@ import "./App.css";
 
 function App(props) {
   return (
-    <div>
+    <div className="container">
       <NavBar />
-       <Toggle /> 
+      <Toggle />
       <Home />
       <Footer />
     </div>

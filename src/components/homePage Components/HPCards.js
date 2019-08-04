@@ -6,7 +6,10 @@ export default function HPCards() {
       <div>
         <CardDeck>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src="https://ton.twitter.com/1.1/ton/data/dm/1158094925000404996/1158094919648464896/DN2fi3Us.jpg:medium"
+            />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
@@ -21,7 +24,10 @@ export default function HPCards() {
             </Card.Footer>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src="https://pbs.twimg.com/card_img/1157635560003067905/ucoZzlCX?format=jpg&name=medium"
+            />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
@@ -35,7 +41,10 @@ export default function HPCards() {
             </Card.Footer>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src="https://ton.twitter.com/1.1/ton/data/dm/1158096006614941701/1158096003410493440/m0V2fe1M.jpg:medium"
+            />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
