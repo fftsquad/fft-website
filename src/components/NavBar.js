@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 
+
 const NavBar = () => {
   return (
     <div>
@@ -15,7 +16,7 @@ const NavBar = () => {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/About" eventKey="link-1">
+          <Nav.Link href="/Programs" eventKey="link-1">
             The FFT Program
           </Nav.Link>
         </Nav.Item>
