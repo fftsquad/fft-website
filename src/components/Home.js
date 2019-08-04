@@ -23,11 +23,3 @@ const Home = props => {
 };
 export default Home;
 
-{
-  /* <button
-        onClick={() => props.setIsToggleOn(!props.isToggleOn)}
-        style={props.isToggleOn ? props.style.on : props.style.off}
-      >
-        {props.isToggleOn ? "ON" : "OFF"}
-      </button> */
-}

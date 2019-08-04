@@ -42,14 +42,13 @@ export default function HPProfiles() {
                 alt="."
               />
               <Media.Body>
-                <h5>CTO, Gregory L. Jordan</h5>
-                <hr />
+                <h5>CTO, Gregory L. Jordan Sr.</h5>
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel
                   metus scelerisque ante sollicitudin commodo. Cras purus
                   odio, vestibulum in vulputate at, tempus viverra turpis.
                   Fusce condimentum nunc ac nisi vulputate fringilla. Donec
-                  lacinia congue felis in faucibus.
+                  lacinia congue felis in faucibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat consequatur magni ipsum id. Quas ipsum amet aliquam ipsam ducimus atque molestiae labore. Adipisci, doloribus? Ratione molestiae ullam accusantium iure!
                 </p>
                 <Button href="#" variant="outline-info">
                   More Info | Portfolio

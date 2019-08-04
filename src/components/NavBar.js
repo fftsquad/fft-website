@@ -1,19 +1,9 @@
 import React from "react";
-import { Link } from 'react-router-dom'
 import { Nav } from "react-bootstrap";
 
 const NavBar = () => {
   return (
     <div>
-      {/* <div className="nav-bar">
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About Us</Link>
-          <Link to="/mission">Our Mission Statement</Link>
-          <Link to="/blog">FFT Blog</Link>
-        </nav>
-      </div> */}
-
       <Nav className="justify-content-end" activeKey="/home">
         <Nav.Item>
           <Nav.Link href="/">Home</Nav.Link>
