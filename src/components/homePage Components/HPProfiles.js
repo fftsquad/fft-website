@@ -1,12 +1,14 @@
 import React from 'react';
 import { Media, Button} from "react-bootstrap";
 
+
 export default function HPProfiles() {
     return (
       <div>
         {/* profiles */}
         <Media>
           <img
+            className="rounded-circle"
             width={64}
             height={64}
             className="mr-3"
@@ -15,6 +17,7 @@ export default function HPProfiles() {
           />
           <Media.Body>
             <h5>CEO, Melanie J. Harris</h5>
+            <hr />
             <p>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
               scelerisque ante sollicitudin commodo. Cras purus odio,
@@ -22,8 +25,11 @@ export default function HPProfiles() {
               condimentum nunc ac nisi vulputate fringilla. Donec lacinia
               congue felis in faucibus.
             </p>
-            <Button href="#" variant="outline-success">
-              Learn More
+            <Button
+              href="src/components/team member pages/MelanieHarris.js"
+              variant="outline-info"
+            >
+              More Info | Portfolio
             </Button>
             <p />
 
@@ -44,8 +50,8 @@ export default function HPProfiles() {
                   Fusce condimentum nunc ac nisi vulputate fringilla. Donec
                   lacinia congue felis in faucibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat consequatur magni ipsum id. Quas ipsum amet aliquam ipsam ducimus atque molestiae labore. Adipisci, doloribus? Ratione molestiae ullam accusantium iure!
                 </p>
-                <Button href="#" variant="outline-success">
-                  Learn More
+                <Button href="#" variant="outline-info">
+                  More Info | Portfolio
                 </Button>
                 <p />
               </Media.Body>
@@ -63,6 +69,7 @@ export default function HPProfiles() {
           />
           <Media.Body>
             <h5>?, Elise Spain</h5>
+            <hr />
             <p>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
               scelerisque ante sollicitudin commodo. Cras purus odio,
@@ -70,8 +77,8 @@ export default function HPProfiles() {
               condimentum nunc ac nisi vulputate fringilla. Donec lacinia
               congue felis in faucibus.
             </p>
-            <Button href="#" variant="outline-success">
-              Learn More
+            <Button href="#" variant="outline-info">
+              More Info | Portfolio
             </Button>
             <p />
 
@@ -85,6 +92,7 @@ export default function HPProfiles() {
               />
               <Media.Body>
                 <h5>?, Jason Aviles</h5>
+                <hr />
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel
                   metus scelerisque ante sollicitudin commodo. Cras purus
@@ -92,8 +100,8 @@ export default function HPProfiles() {
                   Fusce condimentum nunc ac nisi vulputate fringilla. Donec
                   lacinia congue felis in faucibus.
                 </p>
-                <Button href="#" variant="outline-success">
-                  Learn More
+                <Button href="#" variant="outline-info">
+                  More Info | Portfolio
                 </Button>
                 <p />
               </Media.Body>
@@ -111,6 +119,7 @@ export default function HPProfiles() {
           />
           <Media.Body>
             <h5>?, Tyrone Smith</h5>
+            <hr />
             <p>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
               scelerisque ante sollicitudin commodo. Cras purus odio,
@@ -118,8 +127,8 @@ export default function HPProfiles() {
               condimentum nunc ac nisi vulputate fringilla. Donec lacinia
               congue felis in faucibus.
             </p>
-            <Button href="#" variant="outline-success">
-              Learn More
+            <Button href="#" variant="outline-info">
+              More Info | Portfolio
             </Button>
             <p />
 
@@ -128,11 +137,12 @@ export default function HPProfiles() {
                 width={64}
                 height={64}
                 className="mr-3"
-                src="https://pbs.twimg.com/profile_images/714265217727901696/d8qm1F9d_400x400.jpg"
+                src="https://media.licdn.com/dms/image/C5603AQGByopp-pu4uw/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=OsjRR9FzGAg74NzUX2FQXfBIuDbIDBooULc_fYyqQV4"
                 alt="."
               />
               <Media.Body>
                 <h5>?, Kesha Lake</h5>
+                <hr />
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel
                   metus scelerisque ante sollicitudin commodo. Cras purus
@@ -140,8 +150,8 @@ export default function HPProfiles() {
                   Fusce condimentum nunc ac nisi vulputate fringilla. Donec
                   lacinia congue felis in faucibus.
                 </p>
-                <Button href="#" variant="outline-success">
-                  Learn More
+                <Button href="#" variant="outline-info">
+                  More Info | Portfolio
                 </Button>
                 <p />
               </Media.Body>
@@ -159,6 +169,7 @@ export default function HPProfiles() {
           />
           <Media.Body>
             <h5>Jennifer Weaver</h5>
+            <hr />
             <p>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
               scelerisque ante sollicitudin commodo. Cras purus odio,
@@ -166,8 +177,8 @@ export default function HPProfiles() {
               condimentum nunc ac nisi vulputate fringilla. Donec lacinia
               congue felis in faucibus.
             </p>
-            <Button href="#" variant="outline-success">
-              Learn More
+            <Button href="#" variant="outline-info">
+              More Info | Portfolio
             </Button>
             <p />
 
@@ -181,6 +192,7 @@ export default function HPProfiles() {
               />
               <Media.Body>
                 <h5>Jenn Carney</h5>
+                <hr />
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel
                   metus scelerisque ante sollicitudin commodo. Cras purus
@@ -188,8 +200,8 @@ export default function HPProfiles() {
                   Fusce condimentum nunc ac nisi vulputate fringilla. Donec
                   lacinia congue felis in faucibus.
                 </p>
-                <Button href="#" variant="outline-success">
-                  Learn More
+                <Button href="#" variant="outline-info">
+                  More Info | Portfolio
                 </Button>
                 <p />
               </Media.Body>
@@ -207,6 +219,7 @@ export default function HPProfiles() {
           />
           <Media.Body>
             <h5>Benjamin Earley</h5>
+            <hr />
             <p>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
               scelerisque ante sollicitudin commodo. Cras purus odio,
@@ -214,8 +227,8 @@ export default function HPProfiles() {
               condimentum nunc ac nisi vulputate fringilla. Donec lacinia
               congue felis in faucibus.
             </p>
-            <Button href="#" variant="outline-success">
-              Learn More
+            <Button href="#" variant="outline-info">
+              More Info | Portfolio
             </Button>
             <p />
 
@@ -229,6 +242,7 @@ export default function HPProfiles() {
               />
               <Media.Body>
                 <h5>Elizabeth Earley</h5>
+                <hr />
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel
                   metus scelerisque ante sollicitudin commodo. Cras purus
@@ -236,8 +250,8 @@ export default function HPProfiles() {
                   Fusce condimentum nunc ac nisi vulputate fringilla. Donec
                   lacinia congue felis in faucibus.
                 </p>
-                <Button href="#" variant="outline-success">
-                  Learn More
+                <Button href="#" variant="outline-info">
+                  More Info | Portfolio
                 </Button>
                 <p />
               </Media.Body>
@@ -255,6 +269,7 @@ export default function HPProfiles() {
           />
           <Media.Body>
             <h5>Levar morris</h5>
+            <hr />
             <p>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
               scelerisque ante sollicitudin commodo. Cras purus odio,
@@ -262,8 +277,8 @@ export default function HPProfiles() {
               condimentum nunc ac nisi vulputate fringilla. Donec lacinia
               congue felis in faucibus.
             </p>
-            <Button href="#" variant="outline-success">
-              Learn More
+            <Button href="#" variant="outline-info">
+              More Info | Portfolio
             </Button>
             <p />
 
@@ -277,6 +292,7 @@ export default function HPProfiles() {
               />
               <Media.Body>
                 <h5>Honorary Members | Major Supporters</h5>
+                <hr />
                 <p>
                   Cras sit amet nibh libero, in gravida nulla. Nulla vel
                   metus scelerisque ante sollicitudin commodo. Cras purus
@@ -284,7 +300,7 @@ export default function HPProfiles() {
                   Fusce condimentum nunc ac nisi vulputate fringilla. Donec
                   lacinia congue felis in faucibus.
                 </p>
-                <Button href="#" variant="outline-success">
+                <Button href="#" variant="outline-info">
                   Learn More
                 </Button>
                 <p />

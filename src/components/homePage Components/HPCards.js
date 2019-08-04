@@ -16,7 +16,7 @@ export default function HPCards() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="info">Learn More</Button>
               {/* <small className="text-muted" /> */}
             </Card.Footer>
           </Card>
@@ -30,7 +30,7 @@ export default function HPCards() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="info">Learn More</Button>
               {/* <small className="text-muted">Last updated 3 mins ago</small> */}
             </Card.Footer>
           </Card>
@@ -45,7 +45,7 @@ export default function HPCards() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="info">Learn More</Button>
               {/* <small className="text-muted">Last updated 3 mins ago</small> */}
             </Card.Footer>
           </Card>

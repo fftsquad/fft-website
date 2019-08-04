@@ -1,5 +1,6 @@
 .container {
-    /* background-color: black; */
+    /* background-color:  rgb(36, 35, 35);
+    color: white; */
 }
 
 .hp-Carousel {
@@ -19,4 +20,12 @@
 .hp-Profiles {
     margin-bottom: 4%;
     margin-top: 4%;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.rounded-circle{
+    border-radius: 40px;
 }

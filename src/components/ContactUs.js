@@ -1,7 +1,7 @@
 import React from 'react';
 import { Breadcrumb } from "react-bootstrap";
 
-const Mission = () => {
+const ContactUs = () => {
     return (
       <div>
         <div className="mission">FFT Mission Statement</div>
@@ -16,4 +16,4 @@ const Mission = () => {
       </div>
     );
 }
-export default Mission;
+export default ContactUs;
