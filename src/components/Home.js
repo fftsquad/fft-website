@@ -1,9 +1,9 @@
 import React from "react";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import HP_Carousel from './homePage Components/HP_Carousel';
-import HP_Cards from './homePage Components/HP_Cards';
-import HP_Profiles from './homePage Components/HP_Profiles';
+import HPCarousel from './homePage Components/HPCarousel';
+import HPCards from './homePage Components/HPCards';
+import HPProfiles from './homePage Components/HPProfiles';
 
 
 
@@ -14,9 +14,9 @@ const Home = props => {
       <Nav />
       <div className="home">HOME</div>
       
-      <HP_Carousel />
-      <HP_Cards/>
-      <HP_Profiles/>
+      <HPCarousel />
+      <HPCards/>
+      <HPProfiles/>
       
       {/* <button
         onClick={() => props.setIsToggleOn(!props.isToggleOn)}
