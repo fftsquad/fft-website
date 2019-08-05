@@ -11,7 +11,7 @@ export default function HPCards() {
               src="https://ton.twitter.com/1.1/ton/data/dm/1158094925000404996/1158094919648464896/DN2fi3Us.jpg:medium"
             />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>FFT Collaborating With Our Biggest Supporter, Career Karma</Card.Title>
               <Card.Text>
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
