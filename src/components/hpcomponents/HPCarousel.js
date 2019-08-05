@@ -1,21 +1,18 @@
-import React from 'react';
+import React from "react";
 // import { render } from "react-dom";
 // import {Carousel} from "react-bootstrap/Carousel";
 import { Carousel } from "react-bootstrap";
-
-
+import melanin1 from "../images/melanin1.jpeg";
+import melanin2 from "../images/melanin2.jpeg";
+import melanin3 from "../images/melanin3.jpeg";
 
 export default function HPCarousel() {
   return (
     <div>
-      Carousel
+      FFT Affairs
       <Carousel>
         <Carousel.Item className="size">
-          <img
-            className="d-block w-100"
-            src="https://ton.twitter.com/1.1/ton/data/dm/1158085998380666884/1158085995285233664/ApJteDbH.jpg:medium"
-            alt="First slide"
-          />
+          <img className="d-block w-100" src={melanin1} alt="First slide" />
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -24,7 +21,7 @@ export default function HPCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://ton.twitter.com/1.1/ton/data/dm/1158092725725458436/1158092711129305088/WjiM-eBw.jpg:medium"
+            src={melanin3}
             alt="2 slide"
           />
 
@@ -34,11 +31,7 @@ export default function HPCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Third slide"
-          />
+          <img className="d-block w-100" src={melanin2} alt="Third slide" />
 
           <Carousel.Caption>
             <h3>Third slide label</h3>
@@ -51,6 +44,3 @@ export default function HPCarousel() {
     </div>
   );
 }
-
-
-
