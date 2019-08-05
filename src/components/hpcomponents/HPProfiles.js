@@ -39,7 +39,7 @@ export default function HPProfiles() {
                 height={64}
                 className="mr-3"
                 src="https://pbs.twimg.com/profile_images/1096580582081990656/kL8fJ54m_400x400.png"
-                alt="."
+                alt="Papa Smurf"
               />
               <Media.Body>
                 <h5>CTO, Gregory L. Jordan Sr.</h5>
