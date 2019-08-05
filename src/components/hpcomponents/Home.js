@@ -2,9 +2,9 @@ import React from "react";
 import "./Home.css";
 
 
-import HPCarousel from "./homePage Components/HPCarousel";
-import HPCards from "./homePage Components/HPCards";
-import HPProfiles from "./homePage Components/HPProfiles";
+import HPCarousel from "./HPCarousel";
+import HPCards from "./HPCards";
+import HPProfiles from "./HPProfiles";
 
 const Home = props => {
   console.log("My props", props);
