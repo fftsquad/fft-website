@@ -5,9 +5,9 @@ import Footer from "./Footer";
 const Mission = () => {
     return (
         <div>
-            <Nav />
+          
             <div className="mission">FFT Mission Statement</div>
-            <Footer />
+          
         </div>
     )
 }

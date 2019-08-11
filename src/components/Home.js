@@ -6,7 +6,7 @@ const Home = props => {
   console.log('My props', props)
   return (
     <div>
-      <Nav />
+   
       <div className="home">Home</div>
       {/* <button
         onClick={() => props.setIsToggleOn(!props.isToggleOn)}
@@ -14,7 +14,7 @@ const Home = props => {
       >
         {props.isToggleOn ? "ON" : "OFF"}
       </button> */}
-      <Footer />
+     
     </div>
   );
 };
