@@ -7,23 +7,26 @@ import Programs from "./components/Programs";
 import Sponsorships from "./components/Sponsorships";
 import Products from "./components/Products";
 import Blog from "./components/Blog";
-import ContactUs from "./components/ContactUs";
-import NavBar from "./components/navbar/NavBar";
-import Footer from "./components/footer/Footer";
+import Toggle from "./components/Toggle";
+import Store from "./components/Store"
 import "./App.css";
-
-const App = () => {
+import Nav from './components/Nav'
+import Footer from './components/Footer'
+function App(props) {
   return (
     <div className="container">
-        <NavBar />
+    <Nav/>
+      <Toggle />
+      <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/programs" component={Programs} />
         <Route exact path="/sponsor" component={Sponsorships} />
         <Route path="/merch" component={Products} />
         <Route path="/blog" component={Blog} />
-        <Route path="/contact" component={ContactUs} />
-        <Footer />
+        <Route path="/store" component={Store} />
+      </Switch>
+      <Footer/>
     </div>
   );
 }
